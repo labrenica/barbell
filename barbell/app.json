@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "barbell",
-    "slug": "barbell",
+    "slug": "barbell-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "07d0b7c3-3e6b-449f-962f-ed3483c795d2"
+      }
+    },
+    "owner": "labrenic"
   }
 }
